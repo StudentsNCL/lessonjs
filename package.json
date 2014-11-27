@@ -1,0 +1,24 @@
+{
+  "name": "lessonjs",
+  "version": "0.0.1",
+  "description": "Lesson scraper for Newcastle University students",
+  "main": "lesson.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StudentsNCL/lessonjs.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/StudentsNCL/lessonjs/issues"
+  },
+  "homepage": "https://github.com/StudentsNCL/lessonjs",
+  "dependencies": {
+    "cheerio": "^0.18.0",
+    "ncl-connect": "https://github.com/StudentsNCL/ncl-connect/tarball/master",
+    "request": "^2.48.0"
+  }
+}
